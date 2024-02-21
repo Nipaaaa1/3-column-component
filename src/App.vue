@@ -16,8 +16,10 @@ const carColors = (styles: string, colors: string, text: boolean) => {
 </script>
 
 <template>
-  <main class="grid place-items-center px-6 py-16">
-    <section class="flex flex-col overflow-clip rounded-lg">
+  <main class="grid min-h-svh place-items-center px-6 py-16">
+    <section
+      class="flex flex-col overflow-clip rounded-lg md:max-w-4xl md:flex-row"
+    >
       <div
         v-for="car in carData"
         :class="
