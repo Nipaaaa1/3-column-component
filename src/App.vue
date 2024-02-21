@@ -1,8 +1,12 @@
 <script setup lang="ts">
 import data from "./data.json";
 import Card from "./components/Card.vue";
+import { useHead } from "@unhead/vue";
 
 const carData = data.content;
+useHead({
+  title: "3 column components",
+});
 </script>
 
 <template>

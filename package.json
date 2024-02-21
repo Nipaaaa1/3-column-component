@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@unhead/vue": "^1.8.10",
     "autoprefixer": "^10.4.17",
     "clsx": "^2.1.0",
     "postcss": "^8.4.35",
