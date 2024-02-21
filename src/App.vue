@@ -38,7 +38,7 @@ const carColors = (styles: string, colors: string, text: boolean) => {
         <button
           :class="
             carColors(
-              'font-lexendDeca rounded-full bg-white px-8 py-3',
+              'font-lexendDeca rounded-full bg-white px-8 py-3 transition hover:bg-white/0 hover:text-white hover:ring-2 hover:ring-white',
               car.colors,
               true,
             )
